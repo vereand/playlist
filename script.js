@@ -43,8 +43,22 @@ mastarplay.addEventListener('click',()=>{
 audioElement.addEventListener('timeupdate',()=>{
     // console.log('timeupdate');
    let progress = parseInt((audioElement.currentTime/audioElement.duration)*100)
-//    console.log(progress)
    myProgressBar.value = progress;
+if(progress == 100){
+    if(sonIndex >= 7){
+        sonIndex=0;
+       }
+       else{
+        sonIndex +=1;
+       }
+       audioElement.src = `${sonIndex+1}.mp3`;
+       mastarSongName.innerHTML = songs[sonIndex].songName;
+       audioElement.currentTime=0;
+       audioElement.play();
+       songinfoo.style.opacity = 1;
+       mastarplay.classList.remove('play');
+       mastarplay.classList.add('pause')
+   }
 })
 
 myProgressBar.addEventListener('change',()=>{

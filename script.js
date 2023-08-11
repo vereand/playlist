@@ -7,14 +7,14 @@ let songinfoo = document.getElementById('songinfoo');
 let mastarSongName = document.getElementById('mastarSongName');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName:'Agar Tum Saath Ho',filepath:'songs/1.mp3',coverPath:'cover/1.jpg'},
-    {songName:'Kali Kali Zulfon',filepath:'songs/2.mp3',coverPath:'cover/2.jpg'},
-    {songName:'Tera Yaar Hoon Main',filepath:'songs/3.mp3',coverPath:'cover/3.jpg'},
-    {songName:'Yaara Teri Meri Yaari ',filepath:'songs/4.mp3',coverPath:'cover/4.jpg'},
-    {songName:'Mara Saiya Ji Se Aaj...',filepath:'songs/5.mp3',coverPath:'cover/5.jpg'},
-    {songName:'luka chuppi',filepath:'songs/6.mp3',coverPath:'cover/6.jpg'},
-    {songName:'O Paalanhaare',filepath:'songs/7.mp3',coverPath:'cover/7.jpg'},
-    {songName:'Desi Mera',filepath:'songs/1.mp3',coverPath:'cover/1.jpg'},
+    {songName:'Agar Tum Saath Ho',filepath:'songs/1.mp3',coverPath:'1.jpg'},
+    {songName:'Kali Kali Zulfon',filepath:'songs/2.mp3',coverPath:'2.jpg'},
+    {songName:'Tera Yaar Hoon Main',filepath:'songs/3.mp3',coverPath:'3.jpg'},
+    {songName:'Yaara Teri Meri Yaari ',filepath:'songs/4.mp3',coverPath:'4.jpg'},
+    {songName:'Mara Saiya Ji Se Aaj...',filepath:'songs/5.mp3',coverPath:'5.jpg'},
+    {songName:'luka chuppi',filepath:'songs/6.mp3',coverPath:'6.jpg'},
+    {songName:'O Paalanhaare',filepath:'songs/7.mp3',coverPath:'7.jpg'},
+    {songName:'Desi Mera',filepath:'songs/1.mp3',coverPath:'8.jpg'},
 ]
 
 // audioElement.play();
